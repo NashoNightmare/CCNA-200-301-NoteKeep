@@ -19,7 +19,7 @@ Physical firewalls rely between switch and router because router should deal wit
 - **IPS (Intrusion Prevention System)** - Blocks if  malicious activity alerts. Resides within the network flow.
 - **IDS (Intrusion Detection System)** - Taking copies from network flow and warns.
 
-# 6.0 Protocols
+## 6.0 Protocols
 Preceding layer decides what version or type the layer should use.
 
 - **Layer 2 --- Type (Ether type) --- What kind of data the frame carries?**
