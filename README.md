@@ -22,18 +22,18 @@ Physical firewalls rely between switch and router because router should deal wit
 # 6.0 Protocols
 Preceding layer decides what version or type the layer should use.
 
-- **Layer 2** --- Type (Ether type) --- What kind of data the frame carries?
+- **Layer 2 --- Type (Ether type) --- What kind of data the frame carries?**
 	- 0x0806 - ARP 
 	- 0x0800 - IPv4
 	- 0x86DD - IPv6
 	- More about types : [Link](https://en.wikipedia.org/wiki/EtherType)
 
-- **Layer 3** --- PRO --- Which protocol used in layer 4?
+- **Layer 3 --- PRO --- Which protocol used in layer 4?**
 	- 0x06 - TCP
 	- 0x11 - UDP
 	- More about protocols : [Link](https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml)
 
-- **Layer 4** ---Destination Port --- What service should accessed from the server (Application Layer Protocol)?
+- **Layer 4 ---Destination Port --- What service should accessed from the server (Application Layer Protocol)?**
 	- 80 - http
 	- 22 - ssh
 	- 23 - telnet
