@@ -9,7 +9,7 @@
 ## 3.0 Networking Devices
 - **Switch (Layer 2 Device)** - Learn mac address much more quickly using hardware ASICS (Application Specific Integrated Circuits).
 - **Ethernet Cable / Hubs (Layer 1 Devices)**
-- **Router (Layer 3 Device)s** - Routing the transmissions.
+- **Router (Layer 3 Device)** - Routing the transmissions.
 - **Bridge (Layer 2 Device)** - Learns mac addresses in software.
 
 ## 4.0 Firewalls
@@ -44,3 +44,12 @@ Preceding layer decides what version or type the layer should use.
 	- 110 - pop3
 	- `System ports : 0-1023` `User ports : 1024-49151` `Dynamic/Private ports : 49152-65535`
 	- More about ports : [Link](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
+
+## 7.0 ARP (Address Resolution Protocol)
+Used to find the MAC address of another device. Basically a broadcast sent over the network saying "who has this IP address?".
+
+> `arp -a` - To view ARP entries (Windows)
+
+![alt text](https://github.com/NashoNightmare/CCNA-200-301-NoteKeep/blob/master/arp_table.png)
+
+
