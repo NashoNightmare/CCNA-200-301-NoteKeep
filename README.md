@@ -83,4 +83,3 @@ Used to find the MAC address of another device. Basically a broadcast sent over 
 
 ![alt text](https://github.com/NashoNightmare/CCNA-200-301-NoteKeep/blob/master/arp_table.png)
 
-![alt text](https://drive.google.com/file/d/1vSxEFuzXDMIDMJ6aj50X4EXnvP3J3bYm/view?usp=sharing)
